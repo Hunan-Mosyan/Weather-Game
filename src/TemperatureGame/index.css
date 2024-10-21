@@ -1,0 +1,70 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .game-container {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Limit the width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50; /* Darker blue for the title */
+  }
+  
+  p {
+    font-size: 1.1rem; /* Slightly larger text */
+  }
+  
+  input[type="number"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add some padding */
+    margin-top: 10px; /* Space above input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+  }
+  
+  button {
+    background-color: #3498db; /* Blue button */
+    color: white; /* White text */
+    padding: 10px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    margin-top: 10px; /* Space above button */
+    width: 100%; /* Full width */
+  }
+  
+  .Right {
+    color: green;
+  }
+  .Wrong {
+    color: red;
+  }
