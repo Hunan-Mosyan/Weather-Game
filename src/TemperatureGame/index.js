@@ -28,12 +28,12 @@ const TemperatureGame = () => {
         setCity(randomCity.name);
         setTemperature(data.main.temp);
       } else {
-        console.error('Ошибка при получении данных о погоде:', data.message);
+        console.error('Error while retrieving weather data:', data.message);
         fetchRandomCityTemperature();
       }
     } catch (error) {
-      console.error('Ошибка при выполнении запроса:', error);
-    }
+      console.error( ' Error executing request:', error);
+          }
   };
 
   const handleGuessSubmit = () => {

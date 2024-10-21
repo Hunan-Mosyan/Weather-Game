@@ -1,5 +1,5 @@
 export const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
-export const API_KEY = "fd48bdf8a8b87b3c140f17625f4e2d57"; // Ваш API ключ
+export const API_KEY = "fd48bdf8a8b87b3c140f17625f4e2d57"; 
 export const cities = [
     { "name": "New York", "country": "USA" },
     { "name": "London", "country": "UK" },
@@ -54,5 +54,3 @@ export const cities = [
     { "name": "Nairobi", "country": "Kenya" }
   ];
 
-  export const redCross = 'https://media.istockphoto.com/id/1695982629/vector/red-cross-mark.jpg?s=612x612&w=0&k=20&c=svdE5z8cIP2RcgBaKbUdzh63P-83NJlXavKboMsmeyY='
-  export const greenBird = 'https://img.freepik.com/premium-vector/vector-illustration-green-tick-mark-with-textured-edges-isolated-green-checkmark_714710-227.jpg'
